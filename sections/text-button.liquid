@@ -1,0 +1,60 @@
+<link rel="preload" href="{{ 'theme.css' | asset_url }}" as="style">
+
+<div id="shopify-section-{{ section.id }}" class="shopify-section mb-5">
+    <div class="page-width">
+    
+    {% if section.settings.section_title != blank %}
+        <div data-ux="ContentBasic" class="content text-center">
+            <h1 role="heading" aria-level="1" data-ux="FeaturedHeading" data-aid="SECTION_TITLE_RENDERED" data-promoted-from="4" data-order="0" data-typography="HeadingDelta" class="x-el x-el-h1 c1-1 c1-2 c1-1d c1-1e c1-7j c1-2r c1-39 c1-1g c1-1h c1-b c1-2q c1-5l c1-1k c1-5o c1-5q c1-5r c1-5s">
+                {{ section.settings.section_title | escape }}
+            </h1>
+            <div>
+                <p>
+                    <span>
+                        {{ section.settings.section_text }}
+                    </span>
+                </p>
+            </div>
+            <button type="button" class="btn btn-primary">
+                {{ section.settings.section_button }}
+            </button>
+        </div>
+    {% endif %}
+
+    </div>
+</div>
+
+
+
+
+{% schema %}
+{
+    "name": "Saber mas",
+    "settings": [
+        {
+            "type": "text",
+            "id": "section_title",
+            "label": "Titulo de la sección",
+            "default": "Titulo"
+        },
+        {
+            "type": "text",
+            "id": "section_text",
+            "label": "Texto de la sección",
+            "default": "Texto"
+        },
+        {
+            "type": "text",
+            "id": "section_button",
+            "label": "Texto del boton",
+            "default": "Texto"
+        }
+    ],	
+    "presets": [
+        {
+        "name": "text-button",
+        "category": "TECH"
+    }
+  ]
+}
+{% endschema %}

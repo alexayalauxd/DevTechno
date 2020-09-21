@@ -1,0 +1,44 @@
+<link rel="preload" href="{{ 'theme.css' | asset_url }}" as="style">
+
+<div id="shopify-section-{{ section.id }}" class="shopify-section my-5">
+    <div class="page-width">
+    
+        {% if section.settings.section_title != blank %} 
+        <h1 class="text-center">
+            {{ section.settings.section_title | escape }}
+        </h1>
+        {% endif %}
+
+        <div class="content my-5">
+            <div class="row my-5">
+                <div class="social-btn">
+                    <ul>
+                        <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Social Media",
+    "settings": [
+        {
+            "type": "text",
+            "id": "section_title",
+            "label": "Titulo de la sección",
+            "default": "Titulo"
+        }
+    ],	
+    "presets": [
+        {
+        "name": "social-media",
+        "category": "TECH"
+    }
+  ]
+}
+{% endschema %}

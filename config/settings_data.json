@@ -1,0 +1,676 @@
+{
+  "current": {
+    "color_text": "#1b1b1b",
+    "color_body_text": "#5e5e5e",
+    "color_sale_text": "#0075c1",
+    "color_button": "#0075c1",
+    "color_button_text": "#ffffff",
+    "color_small_button_text_border": "#0075c1",
+    "color_text_field_text": "#1b1b1b",
+    "color_text_field_border": "#000000",
+    "color_text_field": "rgba(0,0,0,0)",
+    "color_image_overlay_text": "#ffffff",
+    "color_image_overlay": "#0075c1",
+    "image_overlay_opacity": 0,
+    "color_borders": "#000000",
+    "color_body_bg": "#ffffff",
+    "type_header_font": "quicksand_n4",
+    "type_header_base_size": 26,
+    "type_base_font": "quicksand_n4",
+    "type_base_size": 18,
+    "predictive_search_enabled": true,
+    "predictive_search_show_vendor": false,
+    "predictive_search_show_price": false,
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "social_twitter_link": "",
+    "social_facebook_link": "",
+    "social_pinterest_link": "",
+    "social_instagram_link": "",
+    "social_tumblr_link": "",
+    "social_snapchat_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "favicon": "",
+    "enable_ajax": true,
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "small",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#e8f3f6",
+    "checkout_heading_font": "Roboto",
+    "checkout_body_font": "Source Sans Pro",
+    "checkout_accent_color": "#1990c6",
+    "checkout_button_color": "#23314e",
+    "checkout_error_color": "#ff6d6d",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "align_logo": "left",
+          "logo": "",
+          "logo_max_width": 100,
+          "main_linklist": "main-menu",
+          "message": true,
+          "home_page_only": true,
+          "message_text": "¿Quieres sanitizar tú mismo y ahorrar dinero? ¡Descubre nuestros paquetes HTM ahora!",
+          "message_link": "",
+          "color_bg": "#222222",
+          "color_text": "#ffffff"
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_quantity_selector": false,
+          "show_vendor": false,
+          "enable_payment_button": true,
+          "show_share_buttons": true,
+          "media_size": "medium",
+          "enable_image_zoom": true,
+          "enable_video_looping": false
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "layout": "grid",
+          "grid": 2,
+          "rows": 2,
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": true,
+          "tags_enable": true
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "layout": "grid",
+          "blog_show_author": true,
+          "blog_show_date": false
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "blog_show_author": true,
+          "blog_show_date": true,
+          "show_share_buttons": true
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_ajax_enable": true,
+          "cart_notes_enable": false
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "1600485332957": {
+            "type": "link_list",
+            "settings": {
+              "title": "",
+              "menu": "footer"
+            }
+          }
+        },
+        "block_order": [
+          "1600485332957"
+        ],
+        "settings": {
+          "show_payment_icons": false,
+          "color_footer_bg": "#f8f8f8",
+          "color_footer_text": "#6d6d6d",
+          "show_locale_selector": true,
+          "show_currency_selector": true
+        }
+      },
+      "1600448592886": {
+        "type": "text-button",
+        "settings": {
+          "section_title": "Servicios y productos de sanitización y seguridad higiénica",
+          "section_text": "Somos una empresa de sanitización profesional que aplica procesos y productos científicamente probados y certificados para combatir virus, bacterias, gérmenes y alergenos dañinos, que aseguran seguridad higiénica en negocios, oficinas y hogares.",
+          "section_button": "SABER MÁS"
+        }
+      },
+      "1600450252735": {
+        "type": "feature-columns",
+        "blocks": {
+          "1600450252735-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/1.PNG",
+              "title": "Asesoría personalizada",
+              "text": "<p>Somos un equipo multidisciplinario listo para ofrecerte servicio comercial de limpieza y sanitizaci&oacute;n profesional a tu medida&nbsp;.<\/p>",
+              "button_label": "Conocer más",
+              "button_link": "shopify:\/\/blogs\/nosotros"
+            }
+          },
+          "1600450252735-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/2.PNG",
+              "title": "Servicios en todo el país",
+              "text": "<p>Somos una empresa enfocada en la prevenci&oacute;n, sanitizaci&oacute;n profesional y seguridad higi&eacute;nica ofreciendo servicio comercial de limpieza con un alcance nacional.<\/p>",
+              "button_label": "Conocer más",
+              "button_link": "shopify:\/\/blogs\/nosotros"
+            }
+          },
+          "1600450252735-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/3.PNG",
+              "title": "Productos certificados",
+              "text": "<p>Usamos productos aprobados por la FDA, EPA y otras certificadoras mundiales.<\/p>",
+              "button_label": "Conocer más",
+              "button_link": "shopify:\/\/blogs\/nosotros"
+            }
+          }
+        },
+        "block_order": [
+          "1600450252735-0",
+          "1600450252735-1",
+          "1600450252735-2"
+        ],
+        "settings": {
+          "title": "",
+          "align_text": "center"
+        }
+      },
+      "1600450871432": {
+        "type": "newsletter",
+        "settings": {
+          "section_title": "Suscríbete",
+          "subheading": "<p>Subscr&iacute;bete para recibir noticias sobre promociones, ofertas y eventos sobre seguridad higi&eacute;nica en empresas.<\/p>",
+          "show_background": true
+        }
+      },
+      "1600455507906": {
+        "type": "img-banner",
+        "settings": {
+          "section_title": "",
+          "section_text_1": "+52 1 55 3840 6865",
+          "image_card_1": "shopify:\/\/shop_images\/logo-banner.PNG",
+          "section_text_2": "Servicios y productos (nebulizadores) de sanitización profesional",
+          "image_card_2": "shopify:\/\/shop_images\/img-banner.PNG"
+        }
+      },
+      "1600484014304": {
+        "type": "social-media",
+        "settings": {
+          "section_title": "Conéctate con nosotros"
+        }
+      },
+      "hero": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/logo-banner.PNG",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "small",
+          "text_size": "medium",
+          "title": "",
+          "text": "<p>Servicios y productos (nebulizadores) de sanitizaci&oacute;n profesional<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "img-left": {
+        "type": "img-left",
+        "settings": {
+          "section_title": "Titulo",
+          "image_card_1": "shopify:\/\/shop_images\/nosotros_1.PNG",
+          "section_title_1": "Filosofía TechnoGuard.",
+          "section_text": "En TechnoGuard creemos que ayudar a alguien impacta en muchas más personas de las que podemos ver. Por ello, cada vez que damos un servicio repartimos un porcentaje a personas, instituciones u organizaciones que nos ayuden a ampliar esta cascada de buenas acciones."
+        }
+      },
+      "img-right": {
+        "type": "img-right",
+        "settings": {
+          "section_title": "",
+          "image_card_1": "shopify:\/\/shop_images\/nosotros_2.PNG",
+          "section_title_1": "Empresa mexicana comprometida con la seguridad de todos.",
+          "section_text": "En TechnoGuard México contamos con un equipo multidisciplinario que acumula una vasta experiencia en los servicios y productos de sanitización profesional que tu empresa necesita para garantizar la seguridad higiénica de tus clientes y colaboradores.."
+        }
+      },
+      "img-left-btn": {
+        "type": "img-left-btn",
+        "settings": {
+          "section_title": "",
+          "image_card_1": "shopify:\/\/shop_images\/nosotros_3.PNG",
+          "section_title_1": "Productos probados y certificados",
+          "section_text": "Usamos productos certificados por:  -  FDA (Food & Drug Administration)  -  EPA (United States Enviromental Protection Agency)  -  La Universidad Nacional Mayor de San Marcos en Lima, Perú  -  Laboratorios Lidervet (Lima)  -  DGHM (Sociedad Alemana de Higiene y Microbiología",
+          "section_button": "IR A PRODUCTOS"
+        }
+      },
+      "img-right-btn": {
+        "type": "img-right-btn",
+        "settings": {
+          "section_title": "",
+          "image_card_1": "shopify:\/\/shop_images\/nosotros_4.PNG",
+          "section_title_1": "Servicios profesionales de sanitización",
+          "section_text": "Con nuestros servicios tendrás la seguridad de estar y transitar un espacio sanitizado, compartiendo esa confianza a todo el personal, clientes, amigos de tu negocio o empresa y hogar.",
+          "section_button": "IR A SERVICIOS"
+        }
+      },
+      "img-left-btn-2": {
+        "type": "img-left-btn-2",
+        "settings": {
+          "section_title": "",
+          "image_card_1": "shopify:\/\/shop_images\/nosotros_5.PNG",
+          "section_title_1": "Cobertura Total",
+          "section_text": "Full Guard son paquetes integrales de sanitización profesional diaria, semanal o mensual de servicios y productos certificados.",
+          "section_button": "ir a cobertura total"
+        }
+      },
+      "1600632149747": {
+        "type": "z-bannerImage",
+        "settings": {
+          "section_title": "Titulo",
+          "z_image": "shopify:\/\/shop_images\/img-banner.PNG"
+        }
+      }
+    },
+    "content_for_index": [
+      "1600632149747",
+      "1600455507906",
+      "1600448592886",
+      "1600450252735",
+      "1600450871432",
+      "1600484014304"
+    ]
+  },
+  "presets": {
+    "Default": {
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {}
+        },
+        "hero-1": {
+          "type": "hero",
+          "settings": {
+            "hero_size": "large",
+            "text_size": "large"
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {}
+        },
+        "feature-columns": {
+          "type": "feature-columns",
+          "blocks": {
+            "feature-columns-0": {
+              "type": "text_block",
+              "settings": {}
+            },
+            "feature-columns-1": {
+              "type": "text_block",
+              "settings": {}
+            },
+            "feature-columns-2": {
+              "type": "text_block",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "feature-columns-0",
+            "feature-columns-1",
+            "feature-columns-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "grid": 4
+          }
+        },
+        "hero-2": {
+          "type": "hero",
+          "settings": {
+            "text_size": "large"
+          }
+        },
+        "quotes": {
+          "type": "quotes",
+          "blocks": {
+            "quotes-0": {
+              "type": "quote",
+              "settings": {}
+            },
+            "quotes-1": {
+              "type": "quote",
+              "settings": {}
+            },
+            "quotes-2": {
+              "type": "quote",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "quotes-0",
+            "quotes-1",
+            "quotes-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "image-bar": {
+          "type": "image-bar",
+          "blocks": {
+            "image-bar-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "image-bar-1": {
+              "type": "image",
+              "settings": {}
+            },
+            "image-bar-2": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "image-bar-0",
+            "image-bar-1",
+            "image-bar-2"
+          ],
+          "settings": {}
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "footer-1": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1"
+          ],
+          "settings": {
+            "show_payment_icons": true
+          }
+        }
+      },
+      "content_for_index": [
+        "hero-1",
+        "feature-row",
+        "feature-columns",
+        "collection",
+        "hero-2",
+        "quotes",
+        "image-bar"
+      ]
+    },
+    "Light": {
+      "color_text": "#162950",
+      "color_body_text": "#6d6d6d",
+      "color_sale_text": "#DA2F0C",
+      "color_borders": "#e4e4e4",
+      "color_button": "#DA2F0C",
+      "color_button_text": "#ffffff",
+      "color_small_button_text_border": "#162950",
+      "color_text_field": "#ffffff",
+      "color_text_field_text": "#162950",
+      "color_text_field_border": "#909090",
+      "color_image_overlay_text": "#ffffff",
+      "color_image_overlay": "#3d3d3d",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#f8f8f8",
+      "type_header_font": "muli_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "muli_n4",
+      "type_base_size": 18,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#e8f3f6",
+      "checkout_heading_font": "Roboto",
+      "checkout_body_font": "Source Sans Pro",
+      "checkout_accent_color": "#1990c6",
+      "checkout_button_color": "#23314e",
+      "checkout_error_color": "#ff6d6d",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "align_logo": "left",
+            "logo": "",
+            "logo_max_width": 135,
+            "main_linklist": "main-menu",
+            "message": true,
+            "color_bg": "#162950",
+            "color_text": "#ffffff"
+          }
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "alignment": "center",
+            "hero_size": "x-large",
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center center"
+              }
+            },
+            "1492095993817": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "1492095993817"
+          ],
+          "settings": {
+            "slideshow_height": "medium",
+            "text_size": "medium",
+            "autorotate": false,
+            "autorotate_speed": 5
+          }
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "grid": 3,
+            "rows": 1,
+            "show_vendor": true,
+            "show_view_all": true
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_vendor": false,
+            "show_share_buttons": true,
+            "media_size": "medium",
+            "enable_image_zoom": true,
+            "enable_video_looping": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "layout": "grid",
+            "grid": 2,
+            "rows": 2,
+            "show_collection_image": true,
+            "show_vendor": false,
+            "sort_enable": true,
+            "tags_enable": true
+          }
+        },
+        "1492033809691": {
+          "type": "map",
+          "settings": {}
+        },
+        "1492033877875": {
+          "type": "quotes",
+          "blocks": {
+            "1492033877875-0": {
+              "type": "quote",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492033877875-0"
+          ],
+          "settings": {}
+        },
+        "1492033924902": {
+          "type": "custom-content",
+          "blocks": {
+            "1492033924902-0": {
+              "type": "text",
+              "settings": {
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492033924902-0"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "1492096252560": {
+          "type": "collection-list",
+          "blocks": {
+            "1492096252560-0": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-1": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-2": {
+              "type": "featured_collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492096252560-0",
+            "1492096252560-1",
+            "1492096252560-2"
+          ],
+          "settings": {
+            "grid": 3
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "layout": "grid",
+            "blog_show_author": true,
+            "blog_show_date": false
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_author": true,
+            "blog_show_date": true,
+            "show_share_buttons": true
+          }
+        },
+        "cart-template": {
+          "type": "cart-template",
+          "settings": {
+            "cart_notes_enable": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "link_list",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+            "color_footer_bg": "#f8f8f8",
+            "color_footer_text": "#6d6d6d"
+          }
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "slideshow",
+        "1492033924902",
+        "1492096252560",
+        "1492033877875",
+        "1492033809691"
+      ]
+    }
+  }
+}

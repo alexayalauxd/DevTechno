@@ -1,0 +1,62 @@
+<link rel="preload" href="{{ 'theme.css' | asset_url }}" as="style">
+
+<div id="shopify-section-{{ section.id }}" class="shopify-section mb-5">
+    <div class="page-width">
+    
+        {% if section.settings.section_title != blank %} 
+        <h1>
+            {{ section.settings.section_title | escape }}
+        </h1>
+        {% endif %}
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 p-0">
+                    <img src="{{ section.settings.image_card_1 | img_url: '750x' }}">
+                </div>
+                <div class="col-md-7 p-0 media-body">
+                    <h2 class="mt-0">{{ section.settings.section_title_1 }}</h2>
+                    {{ section.settings.section_text }}
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Image Left",
+    "settings": [
+        {
+            "type": "text",
+            "id": "section_title",
+            "label": "Titulo de la sección",
+            "default": "Titulo"
+        },
+        {
+            "type":"image_picker",
+            "id": "image_card_1",
+            "label": "Imagen de la tarjeta"
+        },
+        {
+            "type": "text",
+            "id": "section_title_1",
+            "label": "Title",
+            "default": "Title"
+        },
+        {
+            "type": "text",
+            "id": "section_text",
+            "label": "Text",
+            "default": "Text"
+        }
+    ],	
+    "presets": [
+        {
+        "name": "img-left",
+        "category": "TECH"
+    }
+  ]
+}
+{% endschema %}

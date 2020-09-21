@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Rapid Bootstrap Template - Index</title>
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<style>
+  .phone{
+    background-color:rgba(0, 0, 0, 0);
+    box-sizing:border-box;
+    color:rgb(255, 255, 255);
+    cursor:pointer;
+    display:inline;
+    font-family:Quicksand, sans-serif;
+    font-size:14px;
+    font-weight:400;
+    height:auto;
+    letter-spacing:normal;
+    line-height:27px;
+    max-width:100%;
+    overflow-wrap:break-word;
+    text-align:center;
+    text-decoration-color:rgb(255, 255, 255);
+    text-decoration-line:none;
+    text-decoration-style:solid;
+    text-size-adjust:100%;
+    text-transform:none;
+    width:auto;
+    -webkit-font-smoothing:antialiased;
+    -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+  }
+  .img-small{
+    background-color:rgba(0, 0, 0, 0);
+    border-bottom-color:rgb(255, 255, 255);
+    border-bottom-style:none;
+    border-bottom-width:0px;
+    border-image-outset:0;
+    border-image-repeat:stretch;
+    border-image-slice:100%;
+    border-image-source:none;
+    border-image-width:1;
+    border-left-color:rgb(255, 255, 255);
+    border-left-style:none;
+    border-left-width:0px;
+    border-right-color:rgb(255, 255, 255);
+    border-right-style:none;
+    border-right-width:0px;
+    border-top-color:rgb(255, 255, 255);
+    border-top-style:none;
+    border-top-width:0px;
+    box-sizing:border-box;
+    color:rgb(255, 255, 255);
+    cursor:pointer;
+    display:inline;
+    font-family:Quicksand, sans-serif;
+    font-size:14px;
+    font-weight:400;
+    height:270px;
+    letter-spacing:normal;
+    margin-bottom:0px;
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:0px;
+    max-height:270px;
+    max-width:100%;
+    object-fit:contain;
+    overflow-wrap:break-word;
+    padding-bottom:0px;
+    padding-left:0px;
+    padding-right:0px;
+    padding-top:0px;
+    text-align:center;
+    text-size-adjust:100%;
+    text-transform:none;
+    vertical-align:middle;
+    width:412.691px;
+    -webkit-font-smoothing:antialiased;
+    -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+  }
+  .text{
+    box-sizing:border-box;
+    color:rgb(255, 255, 255);
+    display:inline-block;
+    font-family:Quicksand, sans-serif;
+    font-size:12px;
+    font-weight:400;
+    height:44.4444px;
+    letter-spacing:normal;
+    line-height:22.5px;
+    margin-block-end:0px;
+    margin-block-start:0px;
+    margin-bottom:0px;
+    margin-inline-end:0px;
+    margin-inline-start:0px;
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:0px;
+    max-width:100%;
+    overflow-wrap:break-word;
+    text-align:center;
+    text-size-adjust:100%;
+    text-transform:none;
+    white-space:pre-line;
+    width:412.795px;
+    -webkit-font-smoothing:antialiased;
+    -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+  }
+  .img-big{
+    border-bottom-color:rgb(0, 0, 0);
+    border-bottom-style:none;
+    border-bottom-width:0px;
+    border-image-outset:0;
+    border-image-repeat:stretch;
+    border-image-slice:100%;
+    border-image-source:none;
+    border-image-width:1;
+    border-left-color:rgb(0, 0, 0);
+    border-left-style:none;
+    border-left-width:0px;
+    border-right-color:rgb(0, 0, 0);
+    border-right-style:none;
+    border-right-width:0px;
+    border-top-color:rgb(0, 0, 0);
+    border-top-style:none;
+    border-top-width:0px;
+    box-sizing:border-box;
+    display:inline;
+    font-family:Quicksand, sans-serif;
+    font-size:18px;
+    height:503.09px;
+    letter-spacing:normal;
+    margin-bottom:0px;
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:0px;
+    max-width:100%;
+    min-width:350px;
+    object-fit:cover;
+    text-align:center;
+    text-size-adjust:100%;
+    text-transform:none;
+    vertical-align:middle;
+    width:739.201px;
+    -webkit-font-smoothing:antialiased;
+    -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+  }
+</style>
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="clearfix">
+    <div class="container d-flex h-100">
+      <div class="row text-center justify-content-center align-self-center" data-aos="fade-up">
+        
+        
+        <div class=" p-0 col-md-7 intro-info order-md-last order-last" data-aos="zoom-in" data-aos-delay="00">
+            <img src="{{ section.settings.img_big | img_url: '750x' }}" class="img-fluid img-big">
+        </div>
+
+
+        <div class="py-4 bg-primary col-md-5 intro-info order-md-first order-first" data-aos="zoom-out" data-aos-delay="100">
+          <a class="phone" href="#">{{ section.settings.numero }}</a>
+          <img src="{{ section.settings.img-small | img_url: '750x' }}" class="img-fluid img-small">
+          <h1 class="text">{{ section.settings.text }}</h1>
+        </div>
+
+
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
+
+
+
+{% schema %}
+{
+    "name": "z-image",
+    "settings": [
+        {
+            "type": "text",
+            "id": "numero",
+            "label": "Numero",
+            "default": "Numero"
+        },
+        {
+            "type":"image_picker",
+            "id": "img-small",
+            "label": "Imagen pequeña"
+        },
+        {
+            "type": "text",
+            "id": "text",
+            "label": "Texto de la sección",
+            "default": "Texto"
+        },
+        {
+            "type":"image_picker",
+            "id": "img_big",
+            "label": "Imagen banner"
+        }
+    ],	
+    "presets": [
+        {
+        "name": "z-image",
+        "category": "Z"
+    }
+  ]
+}
+{% endschema %}
