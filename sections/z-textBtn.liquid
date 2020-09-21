@@ -1,0 +1,80 @@
+<link rel="preload" href="{{ 'style.css' | asset_url }}" as="style">
+
+<style>
+    .cardTex{
+        border: none;
+    }
+    .titl{
+        color:rgb(27, 27, 27);
+        font-size:24px;
+        font-weight:400;
+        -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+        height: 30px;
+        margin-bottom: 1em;
+    }
+    .tex{
+        color:rgb(94, 94, 94);
+        font-size:20px;
+        font-style:normal;
+        font-weight:300;
+        margin-bottom: 1em;
+        -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+    }
+    .boton{
+        background-color:rgb(0, 117, 193);
+        font-size:16px;
+        font-weight:700;
+        margin-bottom: 1em;
+    }
+</style>
+
+<div id="shopify-section-{{ section.id }}" class="shopify-section my-5">
+    <div class="page-width">
+        <div class="cardTex text-center">
+
+            <div class="card-body">
+                <h5 class="card-title titl">Servicios y productos de sanitización y seguridad higiénica</h5>
+                <p class="card-text tex">Somos una empresa de sanitización profesional que aplica procesos y productos científicamente probados y certificados para combatir virus, bacterias, gérmenes y alergenos dañinos, que aseguran seguridad higiénica en negocios, oficinas y hogares.</p>
+                <a href="#" class="btn boton">SABER MÁS</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+{% schema %}
+{
+    "name": "z-textBtn",
+    "settings": [
+        {
+            "type": "text",
+            "id": "numero",
+            "label": "Numero",
+            "default": "Numero"
+        },
+        {
+            "type":"image_picker",
+            "id": "img-small",
+            "label": "Imagen pequeña"
+        },
+        {
+            "type": "text",
+            "id": "text",
+            "label": "Texto de la sección",
+            "default": "Texto"
+        },
+        {
+            "type":"image_picker",
+            "id": "img_big",
+            "label": "Imagen banner"
+        }
+    ],	
+    "presets": [
+        {
+        "name": "z-textBtn",
+        "category": "Z"
+    }
+  ]
+}
+{% endschema %}
