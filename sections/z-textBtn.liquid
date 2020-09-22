@@ -33,8 +33,8 @@
         <div class="cardTex text-center">
 
             <div class="card-body">
-                <h5 class="card-title titl">Servicios y productos de sanitización y seguridad higiénica</h5>
-                <p class="card-text tex">Somos una empresa de sanitización profesional que aplica procesos y productos científicamente probados y certificados para combatir virus, bacterias, gérmenes y alergenos dañinos, que aseguran seguridad higiénica en negocios, oficinas y hogares.</p>
+                <h5 class="card-title titl">{{ section.settings.title_1 }}</h5>
+                <p class="card-text tex">{{ section.settings.text_1 }}</p>
                 <a href="#" class="btn boton">SABER MÁS</a>
             </div>
 
@@ -49,25 +49,15 @@
     "settings": [
         {
             "type": "text",
-            "id": "numero",
-            "label": "Numero",
-            "default": "Numero"
-        },
-        {
-            "type":"image_picker",
-            "id": "img-small",
-            "label": "Imagen pequeña"
+            "id": "title_1",
+            "label": "title_1",
+            "default": "title_1"
         },
         {
             "type": "text",
-            "id": "text",
-            "label": "Texto de la sección",
-            "default": "Texto"
-        },
-        {
-            "type":"image_picker",
-            "id": "img_big",
-            "label": "Imagen banner"
+            "id": "text_1",
+            "label": "text_1",
+            "default": "text_1"
         }
     ],	
     "presets": [

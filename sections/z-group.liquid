@@ -1,0 +1,172 @@
+<style>
+
+    /*--------------------------------------------------------------
+    # Why Us
+    --------------------------------------------------------------*/
+    .why-us {
+      padding: 0 0 30px 0;
+      position: relative;
+      z-index: 3;
+    }
+    
+    .why-us .content {
+      padding: 30px;
+      background: #ff5821;
+      border-radius: 4px;
+      color: #fff;
+    }
+    
+    .why-us .icon-boxes .icon-box {
+      text-align: center;
+      border-radius: 10px;
+      background: #fff;
+      padding: 40px 30px;
+      width: 100%;
+    }
+    
+    .why-us .icon-boxes .icon-box p {
+      font-size: 15px;
+      color: #716f6f;
+    }
+    .img-circ{
+        height: 220px;
+        width: 220px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+    }
+    .h{
+        font-size: 24px;
+        font-weight: 400;
+        color: rgb(27, 27, 27);
+        height: 2em;
+    }
+    .textGroup{
+        font-size: 18px;
+        font-weight: 400;
+        color: rgb(94, 94, 94);
+        height: 10em;
+    }
+    .botonn{
+        background-color:rgb(0, 117, 193);
+        font-size:16px;
+        font-weight:700;
+        margin-bottom: 1em;
+        color: white;
+    }
+    </style>
+
+<div id="shopify-section-{{ section.id }}" class="shopify-section my-5">
+    <div class="page-width">
+        <!-- ======= Why Us Section ======= -->
+        <section id="why-us" class="why-us">
+            <div class="container">
+              <div class="row">
+                <div class="col-xl-12 col-md-12 d-flex">
+                  <div class="icon-boxes d-flex flex-column justify-content-center">
+                    <div class="row">
+                      <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                        <div class="icon-box mt-4 mt-xl-0">
+                          <div class="imagen">
+                              <img src="{{ section.settings.img_circ_1 | img_url: '750x' }}" class="img-fluid img-circ">
+                            </div>
+                          <h4 class="h">{{ section.settings.title_1 }}</h4>
+                          <p class="textGroup">{{ section.settings.text_1 }}</p>
+                          <a href="#" class="btn botonn">CONOCER MÁS</a>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                        <div class="icon-box mt-4 mt-xl-0">
+                          <div class="imagen">
+                              <img src="{{ section.settings.img_circ_2 | img_url: '750x' }}" class="img-fluid img-circ">
+                            </div>
+                          <h4 class="h">{{ section.settings.title_2 }}</h4>
+                          <p class="textGroup">{{ section.settings.text_2 }}</p>
+                          <a href="#" class="btn botonn">CONOCER MÁS</a>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                        <div class="icon-box mt-4 mt-xl-0">
+                          <div class="imagen">
+                              <img src="{{ section.settings.img_circ_3 | img_url: '750x' }}" class="img-fluid img-circ">
+                            </div>
+                          <h4 class="h">{{ section.settings.title_3 }}</h4>
+                          <p class="textGroup">{{ section.settings.text_3 }}</p>
+                          <a href="#" class="btn botonn">VER MÁS</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section><!-- End Why Us Section -->
+    </div>
+</div>
+
+
+{% schema %}
+{
+    "name": "z-group",
+    "settings": [
+        {
+            "type":"image_picker",
+            "id": "img_circ_1",
+            "label": "Imagen 1"
+        },
+        {
+            "type":"image_picker",
+            "id": "img_circ_2",
+            "label": "Imagen 2"
+        },
+        {
+            "type":"image_picker",
+            "id": "img_circ_3",
+            "label": "Imagen 3"
+        },
+        {
+            "type": "text",
+            "id": "text_1",
+            "label": "text_1",
+            "default": "text_1"
+        },
+        {
+            "type": "text",
+            "id": "text_2",
+            "label": "text_2",
+            "default": "text_2"
+        },
+        {
+            "type": "text",
+            "id": "text_3",
+            "label": "text_3",
+            "default": "text_3"
+        },
+        {
+            "type": "text",
+            "id": "title_1",
+            "label": "title_1",
+            "default": "title_1"
+        },
+        {
+            "type": "text",
+            "id": "title_2",
+            "label": "title_2",
+            "default": "title_2"
+        },
+        {
+            "type": "text",
+            "id": "title_3",
+            "label": "title_3",
+            "default": "title_3"
+        }
+    ],	
+    "presets": [
+        {
+        "name": "z-group",
+        "category": "Z"
+    }
+  ]
+}
+{% endschema %}
